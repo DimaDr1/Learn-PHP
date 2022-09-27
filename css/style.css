@@ -1,0 +1,112 @@
+body {
+	background: #fff url(../images/christmas_ornaments4.jpg) no-repeat top left fixed;
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	font-size: 0.95em;
+	color: #000;
+	line-height: 1.5em;
+}
+
+#header {
+ width: 80%;
+ background:transparent;
+ margin: 0 auto;
+ padding: 0;
+ height: 101px;
+ 
+}
+
+#header h1 {
+	padding: 30px 65px 30px 0px;
+	color: #A4BAF5;
+	font-size: 1.4em;
+	letter-spacing: 3px;
+	margin: 0;
+	text-align: right;
+	background: url('snowflake.png') 100% 51% no-repeat;
+}
+
+#header h1 span {
+	color: #7597F6;
+}
+
+#nav {
+	position: absolute;
+	top: 85px;
+	left: 10%;
+	width: auto;
+	padding: 0;
+	margin: 0 auto;
+	font: bold 11px Verdana, sans-serif;
+	height: 25px;
+	
+	
+}
+
+#nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#nav li a {
+	padding: 3px 5px;
+	margin: 0;
+	border-top: 1px solid #A4BAF5;
+	border-right: 1px solid #A4BAF5;
+	border-bottom: 0;
+	border-left: 1px solid #A4BAF5;
+	background: transparent url(../images/trans12.gif) repeat;
+	text-decoration: none;
+	
+}
+
+#nav li a:link { color: #7597F6; }
+#nav li a:visited { color: #7597F6; }
+
+#nav li a:hover {
+	color: #000;
+	background: transparent url(../images/trans13.gif) repeat;
+}
+
+#nav li a#current {
+	background: transparent url(../images/trans12.gif) repeat;
+	border-bottom: 1px solid #7597F6;
+	color: #fff;
+}
+
+#container {
+	background: transparent url('../images/trans11.gif') repeat;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#content {
+	margin: 0;
+	padding: 20px;
+	
+}
+
+#footer {
+	background: transparent;
+	padding: 5px 10px 2px 0;
+	text-align: right;
+	font-size: 0.75em;
+	clear: both;
+	line-height: 1.15em;
+}
+
+
+
+h2 {
+	color: #A4BAF5;
+	border-bottom: 1px solid #A4BAF5;
+	margin: 0;
+	padding: 10px 0 1px 0;
+	font-size: 1.2em;
+}	
+
+
